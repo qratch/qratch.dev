@@ -1,0 +1,9 @@
+{
+  "name": "qratch.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/qratch/qratch.dev",
+  "author": "hota1024",
+  "license": "MIT",
+  "private": false
+}
