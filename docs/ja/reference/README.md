@@ -1,0 +1,47 @@
+# リファレンス
+
+- インターフェース
+  - [`Colorable`](interfaces/Colorable) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Component`](interfaces/Component) <Badge text="LTS" vertical="middle"/>
+  - [`ComponentManageable`](interfaces/ComponentManageable) <Badge text="LTS" vertical="middle"/>
+  - [`Cursor`](interfaces/Cursor) <Badge text="LTS" vertical="middle"/>
+  - [`Drawable`](interfaces/Drawable) <Badge type="warning" text="WIP" vertical="middle"/>
+  - [`Keyboard`](interfaces/Keyboard) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Mouse`](interfaces/Mouse) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Pointable`](interfaces/Pointable) <Badge text="LTS" vertical="middle"/>
+  - [`RenderStylable`](interfaces/RenderStylable) <Badge text="LTS" vertical="middle"/>
+  - [`Renderable`](interfaces/Renderable) <Badge text="LTS" vertical="middle"/>
+  - [`SizeControllable`](interfaces/SizeControllable) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Sizeable`](interfaces/Sizeable) <Badge text="LTS" vertical="middle"/>
+  - [`Ticker`](interfaces/Ticker) <Badge text="LTS" vertical="middle"/>
+  - [`Vectorable2`](interfaces/Vectorable2) <Badge type="danger" text="MTT" vertical="middle"/>
+- クラス
+  - [`CanvasRenderer`](classes/CanvasRenderer) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Color`](classes/Color) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`ComponentManager`](classes/ComponentManager) <Badge text="LTS" vertical="middle"/>
+  - [`Drawer`](classes/Drawer) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`HTMLElementCursor`](classes/HTMLElementCursor) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`HTMLElementKeyboard`](classes/HTMLElementKeyboard) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`HTMLElementMouse`](classes/HTMLElementMouse) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`QratchApp`](classes/QratchApp) <Badge type="warning" text="WIP" vertical="middle"/>
+  - [`RequestAnimationFrameTicker`](classes/RequestAnimationFrameTicker) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Size`](classes/Size) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Vec2`](classes/Vec2) <Badge type="danger" text="MTT" vertical="middle"/>
+- 型
+  - [`RGBA`](types/RGBA) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`CursorStyle`](types/CursorStyle) <Badge text="LTS" vertical="middle"/>
+  - [`FontSize`](types/FontSize) <Badge text="LTS" vertical="middle"/>
+  - [`FontStyle`](types/FontStyle) <Badge text="LTS" vertical="middle"/>
+  - [`FontWeight`](types/FontWeight) <Badge text="LTS" vertical="middle"/>
+  - [`Fontable`](types/Fontable) <Badge text="LTS" vertical="middle"/>
+  - [`KeyCode`](types/KeyCode) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`MouseButtonCode`](types/MouseButtonCode) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`QratchAppOptions`](types/QratchAppOptions) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`RenderImage`](types/RenderImage) <Badge text="LTS" vertical="middle"/>
+  - [`RenderLineCap`](types/RenderLineCap) <Badge text="LTS" vertical="middle"/>
+  - [`RenderPolygonPoint`](types/RenderPolygonPoint) <Badge text="LTS" vertical="middle"/>
+  - [`RenderStyle`](types/RenderStyle) <Badge text="LTS" vertical="middle"/>
+  - [`RenderTextAlign`](types/RenderTextAlign) <Badge text="LTS" vertical="middle"/>
+  - [`RenderTextBaseline`](types/RenderTextBaseline) <Badge text="LTS" vertical="middle"/>
+- ヘルパー
+  - [createCanvasAppOptions](helpers/createCanvasAppOptions) <Badge type="danger" text="MTT" vertical="middle"/>

@@ -1,7 +1,15 @@
+import * as fs from 'fs-extra'
+import * as path from 'path'
 import { defineUserConfig } from '@vuepress/cli'
 import type { DefaultThemeOptions } from '@vuepress/theme-default'
 
+const getFilenames = (dir: string): string[] => {
+  const files = fs.readdirSync(dir)
+  return files.map((f) => path.basename(f, '.md'))
+}
+
 export default defineUserConfig<DefaultThemeOptions>({
+  plugins: ['@vuepress/active-header-links'],
   base: '/',
   locales: {
     '/': {
@@ -17,6 +25,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     },
   },
   themeConfig: {
+    darkMode: false,
+    repo: 'qratch/qratch',
     logo: 'https://raw.githubusercontent.com/qratch/assets/master/64h/qratch-q.png',
     locales: {
       '/': {
@@ -24,6 +34,42 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       '/ja/': {
         selectLanguageName: '日本語',
+        navbar: [
+          {
+            text: 'リファレンス',
+            link: '/ja/reference',
+            activeMatch: '.*/reference',
+          },
+          {
+            text: 'プレイグラウンド',
+            link: 'https://play.qratch.dev',
+          },
+        ],
+        sidebar: [
+          '/ja/README.md',
+          {
+            text: 'リファレンス',
+            link: '/ja/reference',
+            children: [
+              {
+                text: 'クラス',
+                children: ['/ja/reference/classes/QratchApp'],
+              },
+              {
+                text: 'インターフェース',
+                children: getFilenames('docs/ja/reference/interfaces').map(
+                  (n) => `/ja/reference/interfaces/${n}`
+                ),
+              },
+              {
+                text: '型',
+                children: getFilenames('docs/ja/reference/types').map(
+                  (n) => `/ja/reference/types/${n}`
+                ),
+              },
+            ],
+          },
+        ],
       },
     },
   },
