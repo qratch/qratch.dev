@@ -11,6 +11,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "@vue/component-compiler-utils": "^3.2.2",
