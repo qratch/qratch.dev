@@ -9,7 +9,15 @@ const getFilenames = (dir: string): string[] => {
 }
 
 export default defineUserConfig<DefaultThemeOptions>({
-  plugins: ['@vuepress/active-header-links'],
+  plugins: [
+    '@vuepress/active-header-links',
+    [
+      'vuepress-plugin-redirect',
+      {
+        locales: true,
+      },
+    ],
+  ],
   base: '/',
   locales: {
     '/': {
