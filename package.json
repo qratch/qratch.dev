@@ -16,6 +16,7 @@
     "@typescript-eslint/parser": "^4.31.2",
     "@vue/component-compiler-utils": "^3.2.2",
     "@vuepress/plugin-active-header-links": "^1.8.2",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/shared-utils": "^1.8.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
