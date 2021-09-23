@@ -17,6 +17,12 @@ export default defineUserConfig<DefaultThemeOptions>({
         locales: true,
       },
     ],
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'G-2BWNCZSFKM',
+      },
+    ],
   ],
   base: '/',
   head: [['link', { rel: 'icon', href: 'assets/logo.png' }]],
