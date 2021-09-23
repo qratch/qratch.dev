@@ -19,6 +19,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
   ],
   base: '/',
+  head: [['link', { rel: 'icon', href: 'assets/logo.png' }]],
   locales: {
     '/': {
       lang: 'en-US',
