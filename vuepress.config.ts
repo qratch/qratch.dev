@@ -63,6 +63,16 @@ export default defineUserConfig<DefaultThemeOptions>({
         sidebar: [
           '/ja/README.md',
           {
+            text: 'Qratch Learn',
+            link: '/ja/learn',
+            children: [
+              {
+                text: 'ステージ0',
+                link: '/ja/learn/stages/0',
+              },
+            ],
+          },
+          {
             text: 'リファレンス',
             link: '/ja/reference',
             children: [
