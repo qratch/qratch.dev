@@ -78,7 +78,9 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: 'クラス',
-                children: ['/ja/reference/classes/QratchApp'],
+                children: getFilenames('docs/ja/reference/classes').map(
+                  (n) => `/ja/reference/classes/${n}`
+                ),
               },
               {
                 text: 'インターフェース',

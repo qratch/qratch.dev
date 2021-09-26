@@ -1,12 +1,12 @@
 # リファレンス
 
 - インターフェース
-  - [`Colorable`](/ja/reference/interfaces/Colorable) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Colorable`](/ja/reference/interfaces/Colorable) <Badge text="LTS" vertical="middle"/>
   - [`Component`](/ja/reference/interfaces/Component) <Badge text="LTS" vertical="middle"/>
   - [`ComponentManageable`](/ja/reference/interfaces/ComponentManageable) <Badge text="LTS" vertical="middle"/>
   - [`Cursor`](/ja/reference/interfaces/Cursor) <Badge text="LTS" vertical="middle"/>
   - [`Drawable`](/ja/reference/interfaces/Drawable) <Badge type="warning" text="WIP" vertical="middle"/>
-  - [`Keyboard`](/ja/reference/interfaces/Keyboard) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Keyboard`](/ja/reference/interfaces/Keyboard) <Badge text="LTS" vertical="middle"/>
   - [`Mouse`](/ja/reference/interfaces/Mouse) <Badge type="danger" text="MTT" vertical="middle"/>
   - [`Pointable`](/ja/reference/interfaces/Pointable) <Badge text="LTS" vertical="middle"/>
   - [`RenderStylable`](/ja/reference/interfaces/RenderStylable) <Badge text="LTS" vertical="middle"/>
@@ -17,7 +17,7 @@
   - [`Vectorable2`](/ja/reference/interfaces/Vectorable2) <Badge type="danger" text="MTT" vertical="middle"/>
 - クラス
   - [`CanvasRenderer`](/ja/reference/classes/CanvasRenderer) <Badge type="danger" text="MTT" vertical="middle"/>
-  - [`Color`](/ja/reference/classes/Color) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`Color`](/ja/reference/classes/Color) <Badge text="LTS" vertical="middle"/>
   - [`ComponentManager`](/ja/reference/classes/ComponentManager) <Badge text="LTS" vertical="middle"/>
   - [`Drawer`](/ja/reference/classes/Drawer) <Badge type="danger" text="MTT" vertical="middle"/>
   - [`HTMLElementCursor`](/ja/reference/classes/HTMLElementCursor) <Badge type="danger" text="MTT" vertical="middle"/>
@@ -34,7 +34,7 @@
   - [`FontStyle`](/ja/reference/types/FontStyle) <Badge text="LTS" vertical="middle"/>
   - [`FontWeight`](/ja/reference/types/FontWeight) <Badge text="LTS" vertical="middle"/>
   - [`Fontable`](/ja/reference/types/Fontable) <Badge text="LTS" vertical="middle"/>
-  - [`KeyCode`](/ja/reference/types/KeyCode) <Badge type="danger" text="MTT" vertical="middle"/>
+  - [`KeyCode`](/ja/reference/types/KeyCode) <Badge text="LTS" vertical="middle"/>
   - [`MouseButtonCode`](/ja/reference/types/MouseButtonCode) <Badge type="danger" text="MTT" vertical="middle"/>
   - [`QratchAppOptions`](/ja/reference/types/QratchAppOptions) <Badge type="danger" text="MTT" vertical="middle"/>
   - [`RenderImage`](/ja/reference/types/RenderImage) <Badge text="LTS" vertical="middle"/>
