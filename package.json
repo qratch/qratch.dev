@@ -8,7 +8,8 @@
   "private": false,
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy": "yarn build && firebase deploy && git add . && git commit -m \"🚀 deploy\""
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
